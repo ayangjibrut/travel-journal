@@ -8,10 +8,8 @@ function Section(props) {
                 <div class="location--wrapper" className="location--wrapper">
                     <img src={path} class="path--" className="path--" alt="Path"/>
                     <h4>{props.location}</h4>
-                    <p class="gray--" className="gray--">
-                        <a href={props.googleMapsUrl}>View on Google Maps</a>
-                    </p>
                 </div>
+                <a class="gray--" className="gray--" href={props.googleMapsUrl}>View on Google Maps</a>
                 <h2>{props.title}</h2>
                 <h3>
                     {props.startDate} - 
